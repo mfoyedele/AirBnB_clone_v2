@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Sets up a web server for deployment of web_static.
 
 apt-get update
@@ -38,6 +39,8 @@ printf %s "server {
 }" > /etc/nginx/sites-available/default
 service nginx restart
 =======
+=======
+>>>>>>> 72bc2d956f2bac4f0fb2c542763af45714a77199
 # sets up my web servers for the deployment of web_static
 
 echo -e "\e[1;32m START\e[0m"
@@ -85,4 +88,7 @@ echo
 #--restart NGINX
 sudo service nginx restart
 echo -e "\e[1;32m restart NGINX\e[0m"
+<<<<<<< HEAD
+>>>>>>> 72bc2d956f2bac4f0fb2c542763af45714a77199
+=======
 >>>>>>> 72bc2d956f2bac4f0fb2c542763af45714a77199
