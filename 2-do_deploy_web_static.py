@@ -9,7 +9,7 @@ from datetime import datetime
 from fabric.api import env, local, put, run, runs_once
 
 
-env.hosts = ['54.209.3.190', '34.227.93.105']
+env.hosts = ['100.25.22.97', '54.173.242.221']
 
 
 def do_deploy(archive_path):
